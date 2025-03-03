@@ -24,6 +24,7 @@ public class HelloWorldRecordReader extends RecordReader<NullWritable, String> {
 
     message = conf.get(PluginConstants.PROPERTY_CONFIG_KEY_MESSAGE,PluginConstants.PROPERTY_CONFIG_DEFAULT_MESSAGE);
 
+
   }
 
   @Override
